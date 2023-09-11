@@ -1,4 +1,4 @@
 pip install -r requirements.txt
-timeout 960 python src/main.py
+timeout 1200 python src/main.py
 mkdir out
 cp index.html ./out

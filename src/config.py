@@ -11,7 +11,7 @@ class Settings(BaseSettings):
             '65ICO3z7-e2J816WV-b59fN6Z7',
         ]
     )
-    THREADS_COUNT: int = Field(env='THREADS_COUNT', default=1)
+    THREADS_COUNT: int = Field(env='THREADS_COUNT', default=3)
     PROXY_FILE: str | None = Field(env='PROXY_FILE', default=None)
     DEVICE_MODELS: list[str] = Field(env='DEVICE_MODELS', default=[])
     SAVE_WIREGUARD_VARIABLES: bool = Field(env='SAVE_WIREGUARD_VARIABLES', default=False)
