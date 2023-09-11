@@ -6,16 +6,9 @@ class Settings(BaseSettings):
     BASE_KEYS: list[str] = Field(
         env='BASE_KEYS',
         default=[
-            '4QSK31f5-gf7624vG-AK5E2c60',
-            '158yuMs0-aQ0H84j9-85zCub93',
-            'gP9iX803-238whB9q-754fVDF1',
-            '15dqy8U9-21dG9EN4-7oEP0w34',
-            'T0F95f3C-0b86Ki3w-93ZVp84O',
-            'kxF8C975-7v2wQY65-Fl1wJ538',
-            'Nf3JI195-6Ef8yx39-oR74y0E6',
-            'y03c6Ez1-689c3pYk-4x68Ro2t',
-            '9k78h5WA-46S5cuv3-518OnxP4',
-            'Tw36cx85-4Vq5GA08-GP835x1k',
+            '469u0LcP-3g6pw70T-FXU587E9',
+            '2O78XsU5-c46Y7v9K-9v6I78Pc',
+            '65ICO3z7-e2J816WV-b59fN6Z7',
         ]
     )
     THREADS_COUNT: int = Field(env='THREADS_COUNT', default=1)

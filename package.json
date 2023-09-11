@@ -1,0 +1,15 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "My Project",
+    "scripts": {
+      "build": "sh build.sh"
+    },
+    "dependencies": {
+      "next": "^13.4.19",
+      "nextra": "^2.12.3",
+      "nextra-theme-docs": "^2.12.3",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
