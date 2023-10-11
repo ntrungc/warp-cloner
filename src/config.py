@@ -6,8 +6,6 @@ class Settings(BaseSettings):
     BASE_KEYS: list[str] = Field(
         env='BASE_KEYS',
         default=[
-            '469u0LcP-3g6pw70T-FXU587E9',
-            '2O78XsU5-c46Y7v9K-9v6I78Pc',
             '65ICO3z7-e2J816WV-b59fN6Z7',
         ]
     )
